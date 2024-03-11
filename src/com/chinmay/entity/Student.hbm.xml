@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Import DTD rules -->
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	
+    	<class name="com.chinmay.entity.Student" table="student">
+    		<!--  Name = data type name column is table column -->
+    		<id name = "regno" column="regno"></id>
+    		<property name="name" column = "name"></property>
+    		<property name="email" column = "email"></property>
+    		<property name="marks" column = "marks"></property>
+    	</class>
+    
+    </hibernate-mapping>
